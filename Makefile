@@ -1,4 +1,4 @@
-szokirako: szokirako.c
-	gcc -Wall -ggdb -o szokirako szokirako.c
+szokirako: scrabble.c
+	gcc -Wall -ggdb -o scrabble scrabble.c
 clean:
-	rm -f szokirako
+	rm -f scrabble
